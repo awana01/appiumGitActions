@@ -25,5 +25,5 @@ jobs:
       - name: install android emulator
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          apilevel: 29
+          api-level: 29
           script: mvn clean test   #./gradlew connectedCheck
